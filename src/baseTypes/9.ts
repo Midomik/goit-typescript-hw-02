@@ -6,7 +6,7 @@ type DataType = {
   likes: number;
   accounts: string[];
   status: string;
-  details?: { [key: string]: Date };
+  details?: { createAt: Date; updateAt: Date };
 };
 
 const page1: DataType = {

@@ -14,7 +14,7 @@ const dayOfWeek: string[] = [
 ];
 
 const isWeekend = (day: string): boolean => {
-  return day === "Saturday" || day === "Sunday" ? true : false;
+  return day === "Saturday" || day === "Sunday";
 };
 
 isWeekend(dayOfWeek[0]);

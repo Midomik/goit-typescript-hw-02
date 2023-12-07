@@ -6,6 +6,5 @@
 function merge<T, U>(objA: T, objB: U): T & U {
   return { ...objA, ...objB };
 }
-const mergedObj = merge({ name: "Natali" }, { age: 2 });
 
 export {};
